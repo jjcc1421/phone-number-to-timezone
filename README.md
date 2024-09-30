@@ -126,7 +126,7 @@ console.log( getLocalInfo('+55').location );
 
 **zone_display** - string. Sets obj.zone_display. Can be 'name' OR 'offset'. Displays zone by zone name or GMT offset. Default 'offset'.
 ```
-console.log ( getLocalInfo('615',{zone_display: 'area'}).time.zone );
+console.log ( getLocalInfo('615',{zone_display: 'name'}).time.zone );
 // CST
 console.log ( getLocalInfo('615',{zone_display: 'offset'}).time.zone );
 // GMT-5
